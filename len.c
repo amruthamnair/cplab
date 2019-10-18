@@ -1,14 +1,14 @@
 #include<stdio.h>
 void main()
 {
-int length,breadth,area,perimeter;
+int length,b,area,perimeter;
 printf("enter length:");
 scanf("%d",&length);
 printf("enter breadth:");
-scanf("%d",&breadth);
+scanf("%d",&b);
 area=length*breadth; 
 printf("%d is area\n",area);
-perimeter=2*(length+breadth);
+perimeter=2*(length+b);
 printf("%d is perimeter\n",perimeter);
 if(area>perimeter)
 {
